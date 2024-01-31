@@ -1,8 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/an-apple');
+
+                
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'P', serif; */
 }
 
 :root {
@@ -15,6 +22,9 @@
 
 }
 
+a{
+    text-decoration: none;
+}
 /* header style  */
 .text-danger {
     color: red;
@@ -35,6 +45,7 @@
 .header-welcome p {
     color: var(--back-white);
     font-size: 15px;
+    font-family: sans-serif !important;
 
 }
 
@@ -137,10 +148,11 @@
 .web-search {
     width: 100%;
     border-bottom: solid 1px #ddd;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     padding: 8px 0;
     align-items: flex-end;
-    grid-template-columns: 80% 20%;
+
     cursor: pointer;
 }
 
@@ -219,7 +231,7 @@
 }
 
 .content-content nav .ul-list li a {
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .content-content nav ul li {
@@ -230,8 +242,8 @@
 
 .content-content nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    color: black !important;
+    font-weight: 600;
     font-size: 14px;
     transition: 0.5s;
 }
@@ -253,16 +265,16 @@
 
 .content-text p {
     font-size: 1.7rem;
-    color: #333;
-
+    color: black !important;
+    font-weight: 500;
 }
 
 .content-pragraph p {
     margin-top: 20px;
     text-decoration: none;
-    color: #333;
-    font-weight: normal;
-    font-size: 17px;
+    color: black !important;
+    font-weight: 600;
+    font-size: 16px;
     transition: 0.5s;
 }
 
@@ -302,7 +314,7 @@
 .contact h4 {
     padding-bottom: 15px;
     font-size: 20px;
-    color: #333;
+    color: black !important;
 }
 
 .contact-text-icon {
@@ -312,12 +324,13 @@
 }
 
 .contact-text-icon i {
-    color: var(--back-border);
+    color: black !important;
     margin-right: 15px;
 }
 
 .contact-text-icon p {
-    color: var(--back-border);
+    color: black !important;
+    font-weight: 600;
 }
 
 .content-icons {
@@ -353,24 +366,27 @@
 }
 
 .about-content p {
-    font-size: 16px;
-    color: var(--back-border);
+    font-size: 14px;
+    color: black !important;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .about-content p a {
-    color: black;
+    color: black !important;
+    font-weight: 600;
     display: none;
 }
 
 .news h4 {
     padding-bottom: 15px;
     font-size: 20px;
-    color: var(--back-border);
+    color: black !important;
+    font-weight: 600;
 }
 
 .news-content p {
-    color: var(--back-border);
+    color: black !important;
     font-weight: 600;
 }
 
@@ -386,6 +402,8 @@
     padding: 15px;
     outline: none;
     font-size: 17px;
+    color: black !important;
+    font-weight: 600;
     border-radius: 10px;
 }
 
@@ -404,11 +422,13 @@
     margin: auto;
     background: #efefef;
     color: var(--back-border);
+    
 }
 
 .end-footer footer {
     text-align: center;
     padding: 15px 0;
+    font-family: sans-serif !important;
 }
 
 .arrow-top {

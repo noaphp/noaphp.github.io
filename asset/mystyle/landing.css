@@ -12,6 +12,7 @@
     --back-white: white;
     --back-light: #f5f5f5;
     --back-border: #333;
+    --main-bg: rgb(12, 158, 184);
 
 }
 
@@ -47,18 +48,15 @@
 .header .header-left img {
     width: 30px;
     height: 30px;
-    image-rendering: optimizeQuality;
-    image-orientation: from-image;
     image-resolution: var(--back-red);
-    border-image: repeat;
-}
+    border-radius: 50%;
+}   
 
 .header .header-left h4 {
     font-size: 17px;
     color: #333;
 }
 
-.header .header-right {}
 
 .header-mobile {
     display: flex;
@@ -391,7 +389,10 @@
 
 .col-3 .card .card-text p {
     color: #444;
+    font-weight: bold;
+    font-size: 15px;
     margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 5px;
 }
 
@@ -415,7 +416,7 @@
 .develop-title h4 {
     color: #333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .develop-body {
@@ -440,9 +441,10 @@
 }
 
 .col-md-4 p {
-    font-size: 14px;
-    color: #444;
-    font-weight: 300;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dev-user {
@@ -455,7 +457,12 @@
     width: 40px;
     height: 40px;
 }
-
+.mt-41{
+    margin-top: 40px;
+}
+.mt-41 h4{
+    font-size: 30px !important;
+}
 .dev-user .dev-name h4 {
     font-weight: 400;
     color: #333;
@@ -499,8 +506,10 @@
 }
 
 .about-body .content p {
-    color: #333;
+    color: black;
+    font-weight: bold;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     margin: 10px 0;
 }
 
