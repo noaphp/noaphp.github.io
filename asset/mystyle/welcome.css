@@ -63,6 +63,10 @@
     background: white;
     border-radius: 10px;
     min-height: 100%;
+    transition: 0.5s;
+}
+.welcome-grid .col-6:hover{
+    transform: scale(102%);
 }
 
 
