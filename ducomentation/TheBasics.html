@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../asset/mystyle/style.css">
     <link rel="stylesheet" href="../asset/fontawesome-free/css/all.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -97,27 +100,27 @@
                         <div class="content">
                             <div class="content-links">
                                 <div class="content-title">
-                                    <h4>Introduction</h4>
+                                    <h4>The Basics</h4>
                                 </div>
                                 <div class="content-content">
                                     <nav>
                                         <ul>
                                             <li>
                                                 <a href="#intrudoction"><i class="fa fa-hashtag text-danger"></i>
-                                                    Introduction To Noaphp</a>
+                                                    Route</a>
                                                 <ul class="ul-list">
                                                     <li>
                                                         <a href="#whynoaphp"><i class="fa fa-hashtag text-danger"></i>
-                                                            Why Noaphp?</a>
+                                                            Middleware</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#testingSuppport"><i class="fa fa-hashtag text-danger"></i>
-                                                    Testing Support</a>
+                                                    Validation</a>
                                             </li>
                                             <li>
-                                                <a href="#Summary"><i class="fa fa-hashtag text-danger"></i> Summary</a>
+                                                <a href="#Summary"><i class="fa fa-hashtag text-danger"></i> Foreach</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -125,7 +128,7 @@
                                 <div class="content-body">
                                     <section id="intrudoction">
                                         <div class="content-text">
-                                            <p><i class="fa fa-hashtag text-danger"></i> Introduction To Noaphp</p>
+                                            <p><i class="fa fa-hashtag text-danger"></i> Route</p>
                                             <div class="content-pragraph">
                                                 <p>Noaphp is a powerful and elegant PHP web application framework
                                                     designed to make web development tasks, from simple to complex,
@@ -140,7 +143,7 @@
 
                                     <section id="whynoaphp">
                                         <div class="content-text">
-                                            <p><i class="fa fa-hashtag text-danger"></i> Why Noaphp?</p>
+                                            <p><i class="fa fa-hashtag text-danger"></i> Middleware</p>
                                             <div class="content-pragraph">
                                                 <p>Noaphp is designed with testing in mind, providing support for
                                                     PHPUnit and convenient helper methods for writing tests. This helps
@@ -148,13 +151,22 @@
                                                     applications.</p>
 
                                             </div>
+                                            <div class="content-code">
+                                                <div class="">
+                                                    <pre><code data-theme="olaolu-palenight" data-lang="php" class="torchlight" style="background-color: #292D3E; --theme-selection-background: #7580B850;" id="clipText-0"><!-- Syntax highlighted by torchlight.dev --><div class="line"><span style="color: #C792EA;">use</span><span style="color: #BFC7D5;"> Illuminate\Support\Facades\</span><span style="color: #FFCB8B;">Route</span><span style="color: #BFC7D5;">;</span></div><div class="line">&nbsp;</div><div class="line"><span style="color: #FFCB8B;">Route</span><span style="color: #89DDFF;">::</span><span style="color: #82AAFF;">get</span><span style="color: #BFC7D5;">(</span><span style="color: #D9F5DD;">'</span><span style="color: #C3E88D;">/greeting</span><span style="color: #D9F5DD;">'</span><span style="color: #BFC7D5;">, </span><span style="color: #C792EA;">function</span><span style="color: #BFC7D5;"> </span><span style="color: #D9F5DD;">()</span><span style="color: #BFC7D5;"> {</span></div><div class="line"><span style="color: #BFC7D5;">    </span><span style="color: #C792EA;">return</span><span style="color: #BFC7D5;"> </span><span style="color: #D9F5DD;">'</span><span style="color: #C3E88D;">Hello World</span><span style="color: #D9F5DD;">'</span><span style="color: #BFC7D5;">;</span></div><div class="line"><span style="color: #BFC7D5;">});</span></div></code></pre>
+                                                    <button id="clipButton-0" class="copyBtn"
+                                                        aria-label="Copy to Clipboard" title="Copy to Clipboard"
+                                                        data-clipboard-target="#clipText-0"><i
+                                                            class="fa fa-copy"></i></button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </section>
                                 </div>
                                 <div class="content-body">
                                     <section id="testingSuppport">
                                         <div class="content-text">
-                                            <p><i class="fa fa-hashtag text-danger"></i> Testing Support</p>
+                                            <p><i class="fa fa-hashtag text-danger"></i> Validation</p>
                                             <div class="content-pragraph">
                                                 <p>is designed with testing in mind, providing support for PHPUnit and
                                                     convenient helper methods for writing tests. This helps developers
@@ -165,7 +177,7 @@
 
                                     <section id="Summary">
                                         <div class="content-text">
-                                            <p><i class="fa fa-hashtag text-danger"></i> Summary</p>
+                                            <p><i class="fa fa-hashtag text-danger"></i> Foreach</p>
                                             <div class="content-pragraph">
                                                 <p>In summary, Noaphp appeal lies in its emphasis on developer
                                                     experience, elegant syntax, modern features, and a thriving
@@ -250,6 +262,8 @@
             <footer>&copy Copy right 2023. All right reserved</footer>
         </div>
     </section>
+
+
 
 
     <script src="../asset/myjs/javaSctipt.js"></script>
